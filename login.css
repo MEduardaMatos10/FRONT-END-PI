@@ -1,0 +1,119 @@
+body {
+    
+    background: #f6f6f6;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-card {
+    box-shadow: 0 0 10px rgba(20, 39, 71, 0.2);
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+  }
+
+  
+  .left {
+    background-color: #142747;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 300px;
+    padding: 30px;
+    height: 259px;
+  }
+  
+  .left .logo {
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .left h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f6f6f6;
+  }
+  
+  .left p {
+    color: #f6f6f6;
+    font-size: 14px;
+  }
+
+  .division{
+    background-color: #f6f6f6;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 300px;
+    padding: 30px;
+  }
+  
+  .right h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #142747;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .input-group .icon {
+    background: #f0b310;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    padding: 12px;
+    flex: 1;
+    background: #fff;
+    font-size: 14px;
+  }
+  
+  .input-group .icon-eye {
+    padding: 0 12px;
+    width: 24px;
+    cursor: pointer;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+  }
+  
+  .options a {
+    text-decoration: none;
+    color: #142747;
+    font-weight: 600;
+  }
+  
+  button {
+    background: #0a1d3e;
+    color: #f8f8f8;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
