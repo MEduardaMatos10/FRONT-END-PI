@@ -1,30 +1,112 @@
-body{
+body {
     background-color: #f8f8f8;
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
 }
-.container-header{
+.container-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #142747;
     height: 50px;
-    
 }
-.user{
+.user {
     align-items: end;
     color: #ffff;
     margin-right: 40px;
     font-style: italic;
 }
-.logo img{
+.logo img {
     width: 200px;
     padding-top: 30px;
     margin-left: 20px;
 }
-.menu{
+.menu {
     width: 20%;
     height: 100%;
     background-color: #142747;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
 }
 
+.Page-starting {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.Page-starting a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.Page-starting {
+    border-radius: 5px;
+    max-width: 100%;
+}
+.Page-starting:hover {
+    background-color: #283F5D;
+}
+.Page-starting-exit {
+    margin-left: 20px;
+    margin-top: 210px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+}
+.Page-starting-exit:hover {
+    font-weight: bold;
+    background-color: #283F5D;
+    width: 70%;
+}
+.Page-starting-exit a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.Page-starting-finance {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.Page-starting-finance a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 20px;
+    max-width: 100%;
+}
+summary{
+    font-size: 20px;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: px;
+    list-style: none;
+    display: block;
+}
+
+
+.sub-menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+    display: block;
+    padding-top: 15px;
+    background-color: #283F5D;
+}
+.finance-details:hover {
+    background-color: #283F5D;
+}
+
+
+.sub-menu li a:hover {
+    background-color: #283F5D;
+    font-weight: bold;
+}
